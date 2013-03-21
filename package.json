@@ -1,0 +1,35 @@
+{
+  "name": "doxchtml",
+  "version": "0.0.1",
+  "description": "Docx to HTML via Docx.js",
+  "homepage": "https://github.com/mikeumus/docxhtml",
+  "keywords": [
+    "doxc", "doxcjs", "docx-js",
+    "docx-to-html", "docx-html"
+  ],
+  "author": "Mikeumus <mike@mdm.cm> (http://mdm.cm/)",
+  "maintainers": [
+    "Mikeumus <mike@mdm.cm> (http://mdm.cm/)"
+  ],
+  "contributors": [
+    "Mikeumus <mike@mdm.cm> (http://mdm.cm/)",
+    "Formula1 <samtobia@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/mikeumus/docxhtml/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikeumus/docxhtml.git"
+  },
+  "scripts": {
+    "start": "node ./quick-start.js"
+  },
+  "engines": {
+    "node": ">=0.8.22"
+  },
+  "dependencies": {
+    "cherrio": "0.10.x",
+    "node-zip": "1.x"
+  }
+}
